@@ -21,15 +21,15 @@
   "env": {
     "WIKI_TITLE": {
       "description": "Title of your Wiki app",
-      "value": "Wiki"
+      "value": "Opipo"
     },
     "WIKI_HOST": {
       "description": "Full URL of your Wiki app",
-      "value": "https://YOURAPP.herokuapp.com"
+      "value": "https://opipo-wiki.herokuapp.com"
     },
     "WIKI_LANG": {
       "description": "UI Language (en, es, fr, ko, ru, zh)",
-      "value": "en"
+      "value": "es"
     },
     "WIKI_IS_PUBLIC": {
       "description": "Is the wiki publicly accessible? (without login)",
@@ -37,7 +37,7 @@
     },
     "WIKI_GIT_URL": {
       "description": "URL of the remote git repository",
-      "value": "https://github.com/Organization/Repo"
+      "value": "https://github.com/albertinizao/wiki-heroku"
     },
     "WIKI_GIT_BRANCH": {
       "description": "Branch of the remote git repository to use. This branch must already exist.",
@@ -45,15 +45,15 @@
     },
     "WIKI_GIT_USERNAME": {
       "description": "Username to access the remote git repository",
-      "value": "marty"
+      "value": "albertinizao"
     },
     "WIKI_GIT_PASSWORD": {
       "description": "Password / PAT / Deploy Key to access the remote git repository",
-      "value": "MartyMcFly88"
+      "value": "albertinizao"
     },
     "WIKI_SERVER_EMAIL": {
       "description": "Default email to use as commit author",
-      "value": "marty@example.com"
+      "value": "albertinizao@gmail.com"
     },
     "WIKI_SHOW_USER_EMAIL": {
       "description": "Whether to use user email as author in commits",
@@ -61,7 +61,7 @@
     },
     "WIKI_ADMIN_EMAIL": {
       "description": "Email to use during root administrator account creation (default password: admin123)",
-      "value": "marty@example.com"
+      "value": "albertinizao@gmail.com"
     },
     "WIKI_SESSION_KEY": {
       "description": "A long and unique random string used to encrypt sessions",
