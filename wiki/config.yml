@@ -65,9 +65,9 @@ auth:
     clientId: MS_APP_ID
     clientSecret: MS_APP_SECRET
   facebook:
-    enabled: false
-    clientId: FACEBOOK_APP_ID
-    clientSecret: FACEBOOK_APP_SECRET
+    enabled: true
+    clientId: 1434669413307160
+    clientSecret: 1d685792bd825c3e53b2e887145a86f2
   github:
     enabled: false
     clientId: GITHUB_CLIENT_ID
