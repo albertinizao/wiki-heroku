@@ -50,33 +50,32 @@ lang: $(WIKI_LANG)
 # Site Authentication
 # ---------------------------------------------------------------------
 
-# public: $(WIKI_IS_PUBLIC)
-public: true
+public: $(WIKI_IS_PUBLIC)
 
 auth:
-  defaultReadAccess: false
+  defaultReadAccess: $(AUTH_DEFAULTREADACCESS)
   local:
-    enabled: false
+    enabled: $(AUTH_LOCAL_ENABLED)
   google:
-    enabled: false
-    clientId: GOOGLE_CLIENT_ID
-    clientSecret: GOOGLE_CLIENT_SECRET
+    enabled: $(AUTH_GOOGLE_ENABLED)
+    clientId: $(AUTH_GOOGLE_CLIENTID)
+    clientSecret: $(AUTH_GOOGLE_CLIENTSECRET)
   microsoft:
     enabled: false
     clientId: MS_APP_ID
     clientSecret: MS_APP_SECRET
   facebook:
-    enabled: true
-    clientId: 1434669413307160
-    clientSecret: 1d685792bd825c3e53b2e887145a86f2
+    enabled: $(AUTH_FACEBOOK_ENABLED)
+    clientId: $(AUTH_FACEBOOK_CLIENTID)
+    clientSecret: $(AUTH_FACEBOOK_CLIENTSECRET)
   github:
     enabled: false
     clientId: GITHUB_CLIENT_ID
     clientSecret: GITHUB_CLIENT_SECRET
   slack:
-    enabled: false
-    clientId: SLACK_CLIENT_ID
-    clientSecret: SLACK_CLIENT_SECRET
+    enabled: $(AUTH_SLACK_ENABLED)
+    clientId: $(AUTH_SLACK_CLIENTID)
+    clientSecret: $(AUTH_SLACK_CLIENTSECRET)
   ldap:
     enabled: false
     url: ldap://serverhost:389
